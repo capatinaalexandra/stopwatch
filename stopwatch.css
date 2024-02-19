@@ -1,0 +1,93 @@
+
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: verdana; 
+} 
+.container {
+    background-color:palegoldenrod;
+    display: flex;
+     flex-direction: column;
+
+    padding: 0px 15% 100vh 15%;
+
+}
+.titleContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titleStopwatch {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:grey;
+    font-size: x-large
+    
+}
+
+.titleStopwatch2 {
+    color:grey;
+    font-size: x-large;
+    justify-content:space-around;
+   
+}
+
+
+.minutesAndSeconds {
+    display:flex;
+    color:grey;
+    padding: 30px 25% 5px 45%;
+    font-size: x-large;
+  
+} 
+#text {
+    color:grey;
+    font-size: small;
+}
+
+
+.buttonsContainer {
+    display:flex;
+    justify-content: space-around;
+    padding: 50px 30% 0px 35%;;
+
+}
+
+#startButton {
+    color:white;
+    border:2px white;
+    background-color: green;
+    border-style:double;
+    font-size:medium;
+    border-radius: 5px;
+  
+   
+   
+    
+}
+
+#stopButton {
+    color:white;
+    border:2px white;
+    background-color:blue;
+    border-style:double;
+    font-size:medium;
+    border-radius: 5px;
+    
+  
+    
+}
+
+#resetButton {
+    color:white;
+    border:2px white;
+    background-color: red;
+    border-style:solid;
+    font-size:medium;
+    border-radius: 5px;
+   
+  
+}
